@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStore", "AzureStore\AzureStore.csproj", "{AD1FAD7F-3678-41F5-9BB9-72CBDD3C95EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStore.Tests", "AzureStore.Tests\AzureStore.Tests.csproj", "{8F2ABA82-E170-4638-B2FE-EA30B674A285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A22FA41E-0C37-42FD-9D2A-DE4ABF7BCA97}"
+	ProjectSection(SolutionItems) = preProject
+		datatell-subscription.publishsettings = datatell-subscription.publishsettings
+		provision-table-storage.ps1 = provision-table-storage.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD1FAD7F-3678-41F5-9BB9-72CBDD3C95EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1FAD7F-3678-41F5-9BB9-72CBDD3C95EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1FAD7F-3678-41F5-9BB9-72CBDD3C95EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1FAD7F-3678-41F5-9BB9-72CBDD3C95EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2ABA82-E170-4638-B2FE-EA30B674A285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2ABA82-E170-4638-B2FE-EA30B674A285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2ABA82-E170-4638-B2FE-EA30B674A285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2ABA82-E170-4638-B2FE-EA30B674A285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
